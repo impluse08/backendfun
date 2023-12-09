@@ -19,5 +19,5 @@ app.get('/youtube',(req, res) =>{
 })
 
 app.listen(process.env.PORT, () => {
-  console.log(`Coffee app listening on port ${port}`)
+  console.log(`Coffee app listening on port ${process.env.PORT}`)
 })
